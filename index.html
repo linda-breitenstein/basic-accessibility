@@ -8,18 +8,40 @@
 </head>
 <body>
 
-  <header>
+  <ul class="skip-links">
+    <li><a href="">Jump to main content</a></li>
+    <li><a href="">Jump to navigation</a></li>
+  </ul>
+
+  <header role="banner">
     <h1>Pangolin</h1>
-    <nav>
+    <nav role="navigation" id="nav" tabindex="0">
       <li><a href="description">Description</a></li>
       <li><a href="behaviour">Behaviour</a></li>
       <li><a href="conservation">Conservation</a></li>
     </nav>
   </header>
 
-  <main>
+  <main role="main" id="main" tabindex="0">
+    <img src="images/map.jpg" alt="" ari-details="countries">
+
     <section id="description" tabindex="0">
       <h2>Description</h2>
+
+      <div id="countries">
+        <h3>Some countries where pangolins are found</h3>
+        <ol>
+          <li>Botswana</li>
+          <li>Kenya</li>
+          <li>Mozambique</li>
+          <li>Namibia</li>
+          <li>South Africa</li>
+          <li>Tanzania</li>
+          <li>Uganda</li>
+          <li>Zambia</li>
+          <li>Zimbabwe</li>
+        </ol>
+      </div>
     </section>
 
     <section id="behaviour" tabindex="0">
@@ -31,12 +53,10 @@
     </section>
   </main>
 
-  <footer>
+  <footer role="contentinfo">
     <small>© 1821 Pangolin</small>
   </footer>
 
-  Jump to main content
-  Jump to navigation
 
 
 
@@ -44,16 +64,9 @@
 
 
 
-  Some countries where pangolins are found
-  Botswana
-  Kenya
-  Mozambique
-  Namibia
-  South Africa
-  Tanzania
-  Uganda
-  Zambia
-  Zimbabwe
+
+
+
 
   Behaviour
   https://en.wikipedia.org/wiki/Pangolin#Behavior
